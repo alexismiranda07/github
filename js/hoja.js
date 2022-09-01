@@ -1,0 +1,50 @@
+console.log ("HOLA MUNDO");
+var a=2;
+var b=3;
+console.log(typeof a);
+var d=true;
+console.log(typeof d);
+var e="hola";
+console.log(typeof e);
+var f=2.3;
+console.log(typeof f);
+var g;
+console.log(typeof g);
+var h=null;
+console.log(typeof h);
+var i=[2,3,4,"hola"];
+console.log("i="+i+"==>"+typeof i);
+var j={
+    nombre:"jose luis",
+    edad:32
+};
+console.log(typeof j);
+console.log(i[1]);
+console.log("Su nombre es: "+j.nombre+" tiene: "+j.edad+" años.");
+var num1=2;
+var num2=5;
+console.log(num1+num2);
+console.log(num1-num2);
+num1=Number(num1);
+num2=Number(num2);
+console.log(num1+num2);
+var edad=Number(prompt("Ingresar edad: ",[21]));
+console.log("Su edad es: "+edad+"su tipo es: "+typeof edad);
+console.log(typeof NaN);
+console.log(1+true);
+console.log(2-false);
+console.log(2==3);
+console.log(2==="2");
+console.log(2=="2");
+var n1=2;
+console.log(n1++);
+console.log(n1);
+n1=2
+console.log(++n1);
+console.log(n1);
+var n3=3,n4=5;
+console.log(n3>0 && n3++==n4);
+console.log("n3="+n3);
+n3=3;
+console.log(n3>0 && n3++==n4);
+console.log("n3="+n3);
